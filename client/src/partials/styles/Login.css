@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #EBF7FF;
+}
+
+.login-main{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    /* the 5rem margin is to compensate for the margin in main, (in App.css). 
+    without it, the login page scrolls up and down*/
+    margin: -5rem auto; 
+    width: 75vw;
+}
+
+.login-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-label{
+    padding: 0 0 0 10px;
+}
+
+.login-input{
+    border: none;
+    border-radius: 10px;
+    margin: 0 0 15px 0;
+    padding: 10px 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.login-submit-button{
+    background-color: #B0E7CA;
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+}
+
+.login-swap-button{
+    background: none;
+    align-self: flex-end;
+    padding: 0 15px;
+}

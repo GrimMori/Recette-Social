@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ol, ul {
+list-style: none;
+}
+
+button{
+    background-color: transparent;
+}
+
+/* VARIABLES */
+:root{
+--primary: #57CC8D;
+--secondary: #B0E7CA;
+--white: #fdffeb;
+--accent: #EC2B3A;
+--soft-accent: #ED4556;
+}
+
+/* COMMON STYLES */
+main{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-primary{
+    color: white;
+    background-color: var(--primary);
+    font-size: 1.5rem;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: .5rem;
+}
+
+/* -----------------------------RECETA DETAIL-------------------- */
+.detail{
+    text-align: center;
+    border: solid #57CC8D;
+    box-shadow: gray 5px 1px 10px;
+    border-radius: 10px;
+    margin: 40px;
+}
+.detail-recette{
+    text-align: center;
+}
+.imag-detail{
+    width: 280px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0; 
+}
+.titles, p{
+    text-align: left;
+    margin-left: 20px;
+}
+@media (min-width: 800px){
+    .detail{
+        display: flex;
+        gap: 2px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+    }
+    h3{
+        
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .ingrediente {
+        text-align: justify;
+        margin-left: 30px;
+    }
+    .titles, p{
+        text-align: left;
+        margin-left: 20px;
+    }
+}
+
+/* -----------------------------FORMULARIO NUEVA RECETA-------------------- */
+.formulario{
+    text-align: center;
+    padding: 10px; 
+}
+.receta-formulario{
+    padding: 20px;
+}
+.formulario-input {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: solid #B0E7CA;  
+}
+.formulario-input1{
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: solid #B0E7CA;
+}
+.formulario-input2{
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: solid #B0E7CA;
+}
+.formulario-input3{
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: solid #B0E7CA;
+    font-weight: bold;
+}
+.new-receta {
+    border: solid #EC2B3A;
+    background-color: #EC2B3A;
+    border-radius: 50px ;
+    padding: 10px;
+    box-shadow: #57CC8D;
+}
+@media (min-width: 400px){
+    .formulario{
+        border: solid #B0E7CA;
+        border-radius: 0 0 0 70px;
+        margin: 100px;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .new-receta {
+       color: #EC2B3A;
+       background-color: #57CC8D;  
+    }
+}
+/* ----------------------------SOCIAL PAGE-------------------- */
+    .titulo-social{
+        text-align: center;
+    }
+    .social{
+        text-align: center;
+        padding: 10px;
+    }
+    .social1{
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
+    .title-social{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    @media (min-width: 400px){
+        .social{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+   
+    /* ----------------------------PERFILE PAGE-------------------- */
+
+    .profile{
+        border: solid #B0E7CA;
+        border-radius: 0 0 0 70px;
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+        padding-top: 90px;
+        text-align: center;
+        box-shadow: #57CC8D 10px 5px 8px 5px;
+    }
+    .profile-h1{
+        margin-top: 40px;
+        font-size: 2rem;
+    }
+
+
+.home-main{
+    display: flex;
+}
+
+.home-video{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.title-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-div img{
+    height: 4rem;
+}
+
+.title{
+    font-size: 2rem;
+    color: white;
+    background-color: var(--accent);
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 300;
+    margin: 0 0 200px 0;
+}
+
+.title span{
+    font-weight: 600;
+    font-style: italic;
+}
+
+.home-div{
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-button{
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    background-color: var(--primary);
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.home-button a, .home-button a:visited{
+    color: rgb(255, 255, 255);
+}

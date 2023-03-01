@@ -1,0 +1,20 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card img{
+    width: 8rem;
+    height: auto;
+}
+
+.card h1{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.card p{
+    font-size: 1rem;
+}

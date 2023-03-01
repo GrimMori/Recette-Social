@@ -1,0 +1,13 @@
+.header{
+    width: 100vw;
+    background-color: var(--primary);
+    height: 3rem;
+    padding: .5rem 0 .5rem 0;
+    position: fixed;
+    top: 0;
+}
+
+.header img{
+    width: 2.5rem;
+    margin-left: .4rem;
+}
