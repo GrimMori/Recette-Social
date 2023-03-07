@@ -10,12 +10,12 @@ export type Recipe = {
   
 }
 
+
+// TO DO: author of the recipe should be the user that is logged in
+
 function RecetteForm() {
 
   const [recipe, setRecipe] = useState()
-
-
-
 
   return (
     <div className='formulario'>

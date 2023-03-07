@@ -2,6 +2,8 @@ import { Outlet } from "react-router";
 import Header from "./Header";
 import Navbar from "./Navbar";
 
+const token = sessionStorage.getItem("access_token")
+
 const Layout = () => {
   return (
     <>
@@ -9,7 +11,7 @@ const Layout = () => {
       <main>
         <Outlet />
       </main>
-      <Navbar />
+      <Navbar loggedInUser={token} />
     </>
   )
 }

@@ -1,14 +1,10 @@
 import './App.css';
-import {
-  Route,
-  Routes
-}
-  from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import SocialPage from './pages/SocialPage';
 import Login from './pages/Login';
-import Profile from './pages/Profile';
+import Profile, { onLogOut } from './pages/Profile';
 import RecetteListPage from './pages/RecetteList';
 import RecetteDetail from './pages/RecetteDetail';
 import StatisticPage from './pages/StatisticPage';

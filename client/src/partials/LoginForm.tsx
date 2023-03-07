@@ -2,6 +2,9 @@ import "./styles/Login.css"
 import React, { useState, FormEvent } from 'react'
 import { authUserRequest } from '../api/users.api';
 import Layout from './Layout'
+import { useNavigate } from "react-router-dom";
+export let loggedUser: string|null;
+
 
 const LoginForm = (props: any) => {
   let token;
@@ -11,6 +14,15 @@ const LoginForm = (props: any) => {
     "password": ""
   });
 
+  const [loggedInUser, setLoggedInUser] = useState<string|null>(null);
+
+  const navigate = useNavigate();
+  
+  
+
+  // TO DO: find the user that logged in to load its profile
+  // emails and usernames should be unique in the database (ingredient and recipe names too)
+  
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
@@ -21,6 +33,13 @@ const LoginForm = (props: any) => {
         token = response.data.access_token;
         // console.log("access_token: ", token);
         sessionStorage.setItem("access_token", token);
+
+        setLoggedInUser(sessionStorage.getItem("access_token"));
+        loggedUser = loggedInUser;
+        
+        navigate(`/social`);
+        window.location.reload();
+
       })
       .catch(err => console.log(err))
   };
