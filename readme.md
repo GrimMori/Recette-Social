@@ -11,7 +11,7 @@
 
 <h2>3. Development Team: receta2</h2>
 
-- [grim mori](https://github.com/GrimMori) - Developer
+- [GrimMori](https://github.com/GrimMori) - Developer
 - [Chander](https://github.com/ChanderRom) - Developer
 - [Reoobot](https://github.com/Reoobot) - Developer
 - [CapitenASA](https://github.com/CapitenASA) - Developer
