@@ -11,20 +11,20 @@
 
 <h2>3. Development Team: receta2</h2>
 
-- [CapitenASA](https://github.com/CapitenASA) - Developer
 - [grim mori](https://github.com/GrimMori) - Developer
-- [Chander](https://github.com/ChaanChanChan) - Developer
+- [Chander](https://github.com/ChanderRom) - Developer
 - [Reoobot](https://github.com/Reoobot) - Developer
+- [CapitenASA](https://github.com/CapitenASA) - Developer
 <br></br>
 
 <h2>4. Deployment</h2>
 
-- [App](https://github.com/factoriaf5-p52/front-recette-social-receta2)<br></br>
+- [App](https://github.com/GrimMori/Recette-Social)<br></br>
 
 
 <h2>5. Mockup</h2>
 
-- [Figma](https://www.figma.com/file/kScd1K3yAerdzID6tHKT4E/)<br></br>
+- [Figma](https://www.figma.com/file/HmkQ4Y62TmAeDB2UcXepNk/)<br></br>
 
 <h2>6. Stacks</h2>
 
@@ -48,7 +48,7 @@
 
 Clone the repository: 
 
-    $ git clone https://github.com/factoriaf5-p52/front-recette-social-receta2
+    $ git clone https://github.com/GrimMori/Recette-Social
 Install node packages on each folder: 
 
     /server$ npm install
